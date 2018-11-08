@@ -41,7 +41,7 @@ class App extends Component {
             alignItems: "stretch"
           }}
         >
-          <div style={{ flex: 70 }}>
+          <div style={{ flex: 70, paddingRight: 40 }}>
             <ProductList
               products={this.state.products}
               onClickAddToCart={this.handleAddToCart}
