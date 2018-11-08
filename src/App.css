@@ -30,3 +30,31 @@
     transform: rotate(360deg);
   }
 }
+
+header a,
+footer a {
+  color: #fff !important;
+}
+
+.ProductList {
+  display: flex;
+  flex-grow: row;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ProductList img {
+  max-height: 200px;
+  width: auto;
+}
+
+.ProductList__item {
+  margin-right: 40px;
+}
+
+.ProductList__item:last-child {
+  margin-right: 0;
+}
